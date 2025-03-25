@@ -21,6 +21,4 @@ Bringing a Minidisc player from 2001 into 2021 by adding Bluetooth connectivity,
 - Read some scattered notes about the [**reverse engineering process**](re.md), figuring out how to make this work.
 - Check some useful [**references**](refs.md).
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M3I2NCA)
-
 ![BTMD in pairing mode, rapidly blinking](img/blinktop_256.gif) ![BTMD in pairing mode, rapidly blinking, bottom view](img/blinkbottom_256.gif) ![BTMD connected, slowly blinking](img/blinktopcon_256.gif)
