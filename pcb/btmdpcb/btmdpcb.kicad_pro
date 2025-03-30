@@ -578,6 +578,46 @@
     [
       "6e43e92f-e106-411c-86ee-217d084aee5b",
       "Root"
+    ],
+    [
+      "8d690d3f-f0ef-41aa-bdc4-e5b210b3f5fe",
+      "power_mc34063"
+    ],
+    [
+      "a0c0f179-7687-45bf-a81b-4189df333c9d",
+      "power_ap3xxx"
+    ],
+    [
+      "f98f56bc-3a06-4980-9f89-01c85da426aa",
+      "power_we"
+    ],
+    [
+      "30ff757b-83ca-4184-84db-39f939669bab",
+      "supply"
+    ],
+    [
+      "607b6f64-44e5-4f00-b0ca-53e53733045d",
+      "power_3v3"
+    ],
+    [
+      "5e29ed5f-7cd2-4605-9d5a-4da2465d4bbc",
+      "bt_module"
+    ],
+    [
+      "e9a1d5eb-4561-44c0-9558-fc81dabbe286",
+      "MD unit (MZ-N505)"
+    ],
+    [
+      "187a6431-8efb-40fb-b2e6-980e8d4e9b0d",
+      "dual_mosfet_hold"
+    ],
+    [
+      "6fd51821-950e-4740-b3dd-116f45e482c2",
+      "dual_mosfet_pause"
+    ],
+    [
+      "5104d402-043b-4404-a222-ba4630acb25d",
+      "dual_mosfet_hold_bt"
     ]
   ],
   "text_variables": {}

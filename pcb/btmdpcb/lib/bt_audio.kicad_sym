@@ -475,7 +475,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -15.24 11.43 0)
 				(length 2.54)
 				(name "GND"
@@ -511,7 +511,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -15.24 19.05 0)
 				(length 2.54)
 				(name "GND"
