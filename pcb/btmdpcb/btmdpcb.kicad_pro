@@ -686,14 +686,6 @@
       "Root"
     ],
     [
-      "8d690d3f-f0ef-41aa-bdc4-e5b210b3f5fe",
-      "power_mc34063"
-    ],
-    [
-      "a0c0f179-7687-45bf-a81b-4189df333c9d",
-      "power_ap3xxx"
-    ],
-    [
       "f98f56bc-3a06-4980-9f89-01c85da426aa",
       "power_we"
     ],

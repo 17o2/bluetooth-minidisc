@@ -1137,7 +1137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06947d2c-946e-4fcb-9238-1330e4c1efea")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -1249,7 +1249,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1265,7 +1265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370950a4-b62c-4c15-90aa-c42431fc0af7")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 96.52 65.405 0)
 			(effects
 				(font
@@ -1315,7 +1315,7 @@
 		(instances
 			(project ""
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

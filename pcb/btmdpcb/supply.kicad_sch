@@ -2517,7 +2517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "169705ed-fa5c-4f6a-a3ec-db31983ceb9e")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG03"
 			(at 165.1 61.595 0)
 			(effects
 				(font
@@ -2567,7 +2567,7 @@
 		(instances
 			(project ""
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "#FLG05")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2650,7 +2650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "217332be-2013-40db-9283-e981803a4c28")
-		(property "Reference" "Q7"
+		(property "Reference" "Q6"
 			(at 208.28 67.31 90)
 			(effects
 				(font
@@ -2708,7 +2708,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "Q7")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -2791,7 +2791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee629a2-9e2f-4f68-a8f0-21c5d1a92cc0")
-		(property "Reference" "R20"
+		(property "Reference" "R15"
 			(at 104.14 71.1199 0)
 			(effects
 				(font
@@ -2845,7 +2845,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "R20")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2931,7 +2931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65d61cb9-a884-44e8-84c2-0a874321da8a")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 121.92 102.235 0)
 			(effects
 				(font
@@ -2981,7 +2981,7 @@
 		(instances
 			(project ""
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2997,7 +2997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70a1b135-8831-4478-811b-a11218b10c64")
-		(property "Reference" "R21"
+		(property "Reference" "R16"
 			(at 114.3 71.1199 0)
 			(effects
 				(font
@@ -3051,7 +3051,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "R21")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3066,7 +3066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76f60a9a-b28e-43c6-8d1c-30ba0f276448")
-		(property "Reference" "R22"
+		(property "Reference" "R17"
 			(at 165.1 83.8199 0)
 			(effects
 				(font
@@ -3120,7 +3120,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "R22")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3137,7 +3137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d56e3e-d802-454d-85ed-22352c91e31a")
-		(property "Reference" "R18"
+		(property "Reference" "R13"
 			(at 87.63 97.7899 0)
 			(effects
 				(font
@@ -3191,7 +3191,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "R18")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3347,7 +3347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b2df6b5-f962-4bde-baaa-6d5e3f988620")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 146.9741 66.04 0)
 			(effects
 				(font
@@ -3413,7 +3413,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5b9961c-54b9-473f-b2ac-3b433538d423")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 220.98 57.15 0)
 			(effects
 				(font
@@ -3499,7 +3499,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3598,7 +3598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfa59f50-88d6-4b41-b9ad-5adabc1e5ae5")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG04"
 			(at 233.68 61.595 0)
 			(effects
 				(font
@@ -3648,7 +3648,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "#FLG06")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -3664,7 +3664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa4db87a-f417-4c8d-9380-15c876cb1700")
-		(property "Reference" "R23"
+		(property "Reference" "R18"
 			(at 210.82 85.0899 0)
 			(effects
 				(font
@@ -3718,7 +3718,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "R23")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3734,7 +3734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa9943c4-a33f-4517-8e3f-bf18d7b4c13b")
-		(property "Reference" "R19"
+		(property "Reference" "R14"
 			(at 97.79 97.7899 0)
 			(effects
 				(font
@@ -3788,7 +3788,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "R19")
+					(reference "R14")
 					(unit 1)
 				)
 			)
