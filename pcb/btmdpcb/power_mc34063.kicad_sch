@@ -1855,7 +1855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ad360cd-3c22-424e-aa64-9f462a2369cd")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 167.64 89.8524 90)
 			(effects
 				(font
@@ -1909,7 +1909,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/8d690d3f-f0ef-41aa-bdc4-e5b210b3f5fe"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1924,7 +1924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14b88c28-afcc-4080-a9b7-c3b7e79c32b4")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 137.16 68.58 0)
 			(effects
 				(font
@@ -1995,7 +1995,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/8d690d3f-f0ef-41aa-bdc4-e5b210b3f5fe"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2284,7 +2284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e2a232b-a3a4-44de-92cb-194755cdbe20")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 182.88 91.4399 0)
 			(effects
 				(font
@@ -2338,7 +2338,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/8d690d3f-f0ef-41aa-bdc4-e5b210b3f5fe"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2564,7 +2564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad7c09ed-5d6e-4343-b780-7917e9060033")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 182.88 78.7399 0)
 			(effects
 				(font
@@ -2618,7 +2618,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/8d690d3f-f0ef-41aa-bdc4-e5b210b3f5fe"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2633,7 +2633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddd9acaa-24ff-4797-96ce-e3dbe6e72fd9")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 187.96 66.04 90)
 			(effects
 				(font
@@ -2685,7 +2685,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/8d690d3f-f0ef-41aa-bdc4-e5b210b3f5fe"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)

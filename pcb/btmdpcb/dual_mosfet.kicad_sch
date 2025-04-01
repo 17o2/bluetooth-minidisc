@@ -642,7 +642,7 @@
 		)
 	)
 	(junction
-		(at 105.41 77.47)
+		(at 105.41 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03711ba7-f133-4160-9de6-ed0a3db32961")
@@ -654,10 +654,16 @@
 		(uuid "51e95bc8-aec7-4e81-9e06-c7f0251f1217")
 	)
 	(junction
-		(at 109.22 63.5)
+		(at 109.22 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f624496-1ccb-4ebc-a184-df0378c8b9ec")
+	)
+	(junction
+		(at 114.3 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "857087f7-a6e3-43a3-bac4-13c64950299b")
 	)
 	(junction
 		(at 114.3 86.36)
@@ -666,14 +672,24 @@
 		(uuid "9bd78bf5-7d8a-4ea1-bf3b-92d4a9bc1831")
 	)
 	(junction
-		(at 124.46 77.47)
+		(at 124.46 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dce065cd-099a-4345-9c4a-ea0fad9a2815")
 	)
 	(wire
 		(pts
-			(xy 109.22 57.15) (xy 109.22 63.5)
+			(xy 114.3 77.47) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0566c681-9f53-45e0-a789-e7e937695633")
+	)
+	(wire
+		(pts
+			(xy 109.22 48.26) (xy 109.22 54.61)
 		)
 		(stroke
 			(width 0)
@@ -683,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 63.5) (xy 105.41 63.5)
+			(xy 109.22 54.61) (xy 105.41 54.61)
 		)
 		(stroke
 			(width 0)
@@ -703,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 57.15) (xy 124.46 64.77)
+			(xy 124.46 48.26) (xy 124.46 55.88)
 		)
 		(stroke
 			(width 0)
@@ -723,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 109.22 63.5)
+			(xy 114.3 54.61) (xy 109.22 54.61)
 		)
 		(stroke
 			(width 0)
@@ -743,7 +759,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 72.39) (xy 105.41 77.47)
+			(xy 105.41 63.5) (xy 105.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -783,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 77.47) (xy 105.41 77.47)
+			(xy 90.17 68.58) (xy 105.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -793,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 72.39) (xy 124.46 77.47)
+			(xy 124.46 63.5) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -803,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 144.78 77.47)
+			(xy 124.46 68.58) (xy 144.78 68.58)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +829,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 124.46 81.28)
+			(xy 124.46 68.58) (xy 124.46 81.28)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +839,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 114.3 72.39)
+			(xy 114.3 54.61) (xy 114.3 63.5)
 		)
 		(stroke
 			(width 0)
@@ -843,7 +859,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 77.47) (xy 106.68 77.47)
+			(xy 105.41 68.58) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
@@ -853,7 +869,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 114.3 86.36)
+			(xy 114.3 73.66) (xy 114.3 77.47)
 		)
 		(stroke
 			(width 0)
@@ -863,7 +879,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 63.5) (xy 105.41 64.77)
+			(xy 114.3 77.47) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca3a814-1202-4b72-81b6-1930904afaf6")
+	)
+	(wire
+		(pts
+			(xy 105.41 54.61) (xy 105.41 55.88)
 		)
 		(stroke
 			(width 0)
@@ -871,9 +897,9 @@
 		)
 		(uuid "fc032776-1519-4211-abea-435b9d14187d")
 	)
-	(hierarchical_label "IN"
+	(hierarchical_label "~{SIG_{@V1}}"
 		(shape input)
-		(at 90.17 77.47 180)
+		(at 90.17 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -895,9 +921,9 @@
 		)
 		(uuid "43441170-8843-4a6e-993b-a36ccbcd13eb")
 	)
-	(hierarchical_label "OUT"
+	(hierarchical_label "~{SIG_{@V2}}"
 		(shape output)
-		(at 144.78 77.47 0)
+		(at 144.78 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -907,9 +933,21 @@
 		)
 		(uuid "5420155b-1a98-4e64-bfd8-4108fd16d5c4")
 	)
-	(hierarchical_label "V_OUT"
+	(hierarchical_label "SIG_{@V1}"
+		(shape output)
+		(at 144.78 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "981eafc9-ea79-40d7-a155-c1f8a6349299")
+	)
+	(hierarchical_label "V2"
 		(shape input)
-		(at 124.46 57.15 90)
+		(at 124.46 48.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -919,9 +957,9 @@
 		)
 		(uuid "a0472d40-d96a-400a-8665-988d5bfbcf35")
 	)
-	(hierarchical_label "V_IN"
+	(hierarchical_label "V1"
 		(shape input)
-		(at 109.22 57.15 90)
+		(at 109.22 48.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -933,15 +971,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSD235C")
-		(at 111.76 77.47 0)
+		(at 111.76 68.58 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3ae5bc56-6856-4bc3-a8c0-02f10a4c4edf")
-		(property "Reference" "Q3"
-			(at 104.14 80.01 0)
+		(property "Reference" "Q8"
+			(at 104.14 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +988,7 @@
 			)
 		)
 		(property "Value" "BSD235C"
-			(at 104.14 82.55 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +997,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 116.84 79.375 0)
+			(at 116.84 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +1008,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
-			(at 116.84 81.28 0)
+			(at 116.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +1018,7 @@
 			)
 		)
 		(property "Description" "-0.53/+0.95A Id, -20/+20V Vds, P/N-Channel MOSFET, SOT-363, Infineon"
-			(at 111.76 77.47 0)
+			(at 111.76 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,15 +1047,11 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
-					(reference "Q3")
-					(unit 2)
-				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/5104d402-043b-4404-a222-ba4630acb25d"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 2)
 				)
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "Q2")
+					(reference "Q9")
 					(unit 2)
 				)
 			)
@@ -1034,7 +1068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81390a9f-4ae9-4e6d-a4a2-9a90ffb38106")
-		(property "Reference" "R36"
+		(property "Reference" "R34"
 			(at 111.76 90.1699 0)
 			(effects
 				(font
@@ -1088,15 +1122,11 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
-					(reference "R36")
-					(unit 1)
-				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/5104d402-043b-4404-a222-ba4630acb25d"
-					(reference "R29")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "R33")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -1112,7 +1142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94a94d40-aa11-4d49-8a4d-97657233eb87")
-		(property "Reference" "Q3"
+		(property "Reference" "Q8"
 			(at 128.27 85.0899 0)
 			(effects
 				(font
@@ -1181,15 +1211,11 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/5104d402-043b-4404-a222-ba4630acb25d"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 1)
 				)
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "Q2")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -1197,7 +1223,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 68.58 0)
+		(at 105.41 59.69 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1206,8 +1232,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e740929d-16bf-4416-939f-154a4b9fdc22")
-		(property "Reference" "R35"
-			(at 102.87 67.3099 0)
+		(property "Reference" "R33"
+			(at 102.87 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1242,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 102.87 69.8499 0)
+			(at 102.87 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 103.632 68.58 90)
+			(at 103.632 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 68.58 0)
+			(at 105.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1269,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 68.58 0)
+			(at 105.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,15 +1286,11 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
-					(reference "R35")
-					(unit 1)
-				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/5104d402-043b-4404-a222-ba4630acb25d"
-					(reference "R7")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -1276,7 +1298,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 68.58 0)
+		(at 124.46 59.69 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1285,8 +1307,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcdb44e9-2a9c-4ee0-894a-26689fed841f")
-		(property "Reference" "R37"
-			(at 121.92 67.3099 0)
+		(property "Reference" "R35"
+			(at 121.92 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1317,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 121.92 69.8499 0)
+			(at 121.92 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.682 68.58 90)
+			(at 122.682 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 68.58 0)
+			(at 124.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1344,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 68.58 0)
+			(at 124.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,15 +1361,11 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
-					(reference "R37")
-					(unit 1)
-				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/5104d402-043b-4404-a222-ba4630acb25d"
-					(reference "R38")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "R32")
+					(reference "R38")
 					(unit 1)
 				)
 			)

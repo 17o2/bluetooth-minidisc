@@ -1137,7 +1137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06947d2c-946e-4fcb-9238-1330e4c1efea")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -1249,7 +1249,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "U8")
+					(reference "U3")
 					(unit 1)
 				)
 			)
