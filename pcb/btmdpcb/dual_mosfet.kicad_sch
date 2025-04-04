@@ -1050,10 +1050,6 @@
 					(reference "Q7")
 					(unit 2)
 				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "Q8")
-					(unit 2)
-				)
 			)
 		)
 	)
@@ -1123,10 +1119,6 @@
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
 					(reference "R29")
-					(unit 1)
-				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1214,10 +1206,6 @@
 					(reference "Q7")
 					(unit 1)
 				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "Q8")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1289,10 +1277,6 @@
 					(reference "R28")
 					(unit 1)
 				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "R31")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1362,10 +1346,6 @@
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
 					(reference "R30")
-					(unit 1)
-				)
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/6fd51821-950e-4740-b3dd-116f45e482c2"
-					(reference "R33")
 					(unit 1)
 				)
 			)

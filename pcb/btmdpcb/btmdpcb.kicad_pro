@@ -633,11 +633,77 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Function",
+          "name": "Function",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Iout (A)",
+          "name": "Iout (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NOtes",
+          "name": "NOtes",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Version",
+          "name": "Version",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vin (V)",
+          "name": "Vin (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vout (V)",
+          "name": "Vout (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -708,10 +774,6 @@
     [
       "187a6431-8efb-40fb-b2e6-980e8d4e9b0d",
       "levelshift_HOLD"
-    ],
-    [
-      "6fd51821-950e-4740-b3dd-116f45e482c2",
-      "levelshift_PAUSE"
     ]
   ],
   "text_variables": {}
