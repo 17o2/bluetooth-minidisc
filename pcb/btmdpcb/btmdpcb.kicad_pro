@@ -752,24 +752,24 @@
       "Root"
     ],
     [
-      "f98f56bc-3a06-4980-9f89-01c85da426aa",
-      "power_we"
-    ],
-    [
       "30ff757b-83ca-4184-84db-39f939669bab",
       "supply"
+    ],
+    [
+      "f98f56bc-3a06-4980-9f89-01c85da426aa",
+      "power_we"
     ],
     [
       "607b6f64-44e5-4f00-b0ca-53e53733045d",
       "power_3v3"
     ],
     [
-      "5e29ed5f-7cd2-4605-9d5a-4da2465d4bbc",
-      "bt_module"
-    ],
-    [
       "e9a1d5eb-4561-44c0-9558-fc81dabbe286",
       "MD unit (MZ-N505)"
+    ],
+    [
+      "5e29ed5f-7cd2-4605-9d5a-4da2465d4bbc",
+      "bt_module"
     ],
     [
       "187a6431-8efb-40fb-b2e6-980e8d4e9b0d",
