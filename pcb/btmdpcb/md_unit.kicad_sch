@@ -5,367 +5,6 @@
 	(uuid "890a7c8d-a366-4275-b628-47e178077501")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -1086,23 +725,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 36.83) (xy 101.6 36.83)
+			(xy 100.33 35.56) (xy 111.76 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1748ec97-3b5a-4bc3-8f79-2639ada7e24b")
-	)
-	(wire
-		(pts
-			(xy 101.6 35.56) (xy 101.6 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9055db-a4e0-436a-be28-553aaeedca9b")
 	)
 	(wire
 		(pts
@@ -1126,7 +755,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 41.91) (xy 44.45 41.91)
+			(xy 35.56 41.91) (xy 48.26 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +805,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 35.56 39.37)
+			(xy 46.99 39.37) (xy 46.99 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b320cf1-136a-400d-a6e5-6107ff5c642f")
+	)
+	(wire
+		(pts
+			(xy 35.56 39.37) (xy 46.99 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +845,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 41.91) (xy 101.6 41.91)
+			(xy 100.33 43.18) (xy 111.76 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +885,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 39.37) (xy 111.76 39.37)
+			(xy 91.44 39.37) (xy 111.76 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1276,16 +915,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 41.91) (xy 101.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae0735a0-02b1-43cf-a5ed-0e1d82ccc8f8")
-	)
-	(wire
-		(pts
 			(xy 72.39 82.55) (xy 87.63 82.55)
 		)
 		(stroke
@@ -1303,26 +932,6 @@
 			(type default)
 		)
 		(uuid "b213fa50-e544-4c48-830e-a7b46f637228")
-	)
-	(wire
-		(pts
-			(xy 101.6 43.18) (xy 111.76 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8793d50-896f-47e6-99db-970b11aa30f2")
-	)
-	(wire
-		(pts
-			(xy 111.76 35.56) (xy 101.6 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf795be7-0927-4ee4-9e11-7723aeeea29f")
 	)
 	(wire
 		(pts
@@ -1644,7 +1253,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "08ce9b3a-a957-4a0b-a375-40bab0befddb")
-		(property "Reference" "R25"
+		(property "Reference" "R29"
 			(at 93.98 135.89 90)
 			(effects
 				(font
@@ -1696,7 +1305,74 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "R25")
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 46.99 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c6ad24b-384c-4768-9e17-56a7657453d0")
+		(property "Reference" "TP10"
+			(at 49.53 33.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 49.53 36.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 46.99 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64609d02-8dc8-4660-80b4-4ebfab0ae4dc")
+		)
+		(instances
+			(project "btmdpcb"
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -1712,7 +1388,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "22a3c416-c4a5-44b6-b611-ba5bfff0ffc3")
-		(property "Reference" "R26"
+		(property "Reference" "R30"
 			(at 97.79 101.6 90)
 			(effects
 				(font
@@ -1764,78 +1440,7 @@
 		(instances
 			(project ""
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 49.53 39.37 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2526d4c4-bfbf-4c49-9ab6-20aa406abe3e")
-		(property "Reference" "J3"
-			(at 50.8 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 50.8 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 49.53 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "42f0b911-d82a-4010-88be-d364ba96afe5")
-		)
-		(pin "1"
-			(uuid "4f469ffa-bc96-4b72-a362-12ab1f899723")
-		)
-		(instances
-			(project ""
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "J3")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1851,7 +1456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "363fb45d-64f1-4786-b50b-8670c864481f")
-		(property "Reference" "TP13"
+		(property "Reference" "TP21"
 			(at 127 103.3779 0)
 			(effects
 				(font
@@ -1902,7 +1507,72 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "TP13")
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36b8d9d7-b139-460f-899d-f4658baab558")
+		(property "Reference" "TP17"
+			(at 97.028 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.028 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81f6f36d-a0cc-47de-ad49-3d3640cb7745")
+		)
+		(instances
+			(project "btmdpcb"
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -1988,7 +1658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42890019-09ae-41f3-9fb3-6d47cd4aee7d")
-		(property "Reference" "TP12"
+		(property "Reference" "TP20"
 			(at 116.84 77.9779 0)
 			(effects
 				(font
@@ -2039,7 +1709,137 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "TP12")
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a7240f1-6288-4e39-b4c1-2c2d40b4bfa6")
+		(property "Reference" "TP16"
+			(at 88.138 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.138 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b048c57-17af-46e5-9364-33c56e871699")
+		)
+		(instances
+			(project "btmdpcb"
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 43.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "728827af-70d8-4a43-af63-755b0be3f701")
+		(property "Reference" "TP18"
+			(at 97.028 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.028 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a310435-3d5a-430b-ae28-0b3113c2ad57")
+		)
+		(instances
+			(project "btmdpcb"
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -2055,7 +1855,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "746c9fa6-8071-4119-b1fc-4c6c9648b961")
-		(property "Reference" "R27"
+		(property "Reference" "R31"
 			(at 104.14 76.2 90)
 			(effects
 				(font
@@ -2107,7 +1907,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "R27")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2123,7 +1923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d633843-2129-43bc-bfe7-de86ed23737d")
-		(property "Reference" "TP10"
+		(property "Reference" "TP15"
 			(at 90.17 76.7079 0)
 			(effects
 				(font
@@ -2174,7 +1974,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "TP10")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -2256,7 +2056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bff0163-5dca-4bcc-8a9b-9932ddf1726f")
-		(property "Reference" "TP9"
+		(property "Reference" "TP14"
 			(at 90.17 55.1179 0)
 			(effects
 				(font
@@ -2307,7 +2107,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "TP9")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -2454,76 +2254,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 95.25 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3c62532-8770-47bf-8fc6-6663f8933a0e")
-		(property "Reference" "J4"
-			(at 95.885 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 95.885 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 95.25 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25b16b73-dadf-4549-9c34-e7f069270748")
-		)
-		(pin "2"
-			(uuid "8c78b929-4b62-4e5d-a45e-5a0b09ea712e")
-		)
-		(pin "3"
-			(uuid "79b09ba9-950f-4ac5-a3b3-099eb8505601")
-		)
-		(instances
-			(project ""
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 105.41 142.24 0)
 		(unit 1)
@@ -2533,7 +2263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5f97f66-0dd6-48b1-bd82-997acf606aa9")
-		(property "Reference" "TP11"
+		(property "Reference" "TP19"
 			(at 107.95 137.6679 0)
 			(effects
 				(font
@@ -2584,6 +2314,73 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cda34d64-4f24-468d-b7e4-d4faa717eafa")
+		(property "Reference" "TP11"
+			(at 50.8 43.9419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 46.4819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 43.18 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f05b735d-0eef-4cdb-9fc6-c128d62b7c29")
+		)
+		(instances
+			(project "btmdpcb"
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
 					(reference "TP11")
 					(unit 1)
 				)
@@ -2600,7 +2397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db2e2b6e-b6c8-4ba9-b8f0-54a254b2eda2")
-		(property "Reference" "TP7"
+		(property "Reference" "TP12"
 			(at 81.28 136.3979 0)
 			(effects
 				(font
@@ -2651,7 +2448,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "TP7")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -2667,7 +2464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e15648a1-a33a-4288-a61e-82f67c4f9740")
-		(property "Reference" "TP8"
+		(property "Reference" "TP13"
 			(at 82.55 100.8379 0)
 			(effects
 				(font
@@ -2718,7 +2515,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/e9a1d5eb-4561-44c0-9558-fc81dabbe286"
-					(reference "TP8")
+					(reference "TP13")
 					(unit 1)
 				)
 			)

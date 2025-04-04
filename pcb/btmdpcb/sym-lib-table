@@ -2,6 +2,6 @@
   (version 7)
   (lib (name "bt_audio")(type "KiCad")(uri "${KIPRJMOD}/lib/bt_audio.kicad_sym")(options "")(descr ""))
   (lib (name "pololu")(type "KiCad")(uri "${KIPRJMOD}/lib/pololu.kicad_sym")(options "")(descr ""))
-  (lib (name "MagIC_Wurth_WPME-VDMM")(type "KiCad")(uri "/Users/daniel/Projects/Bluetooth-Minidisc/pcb/buck_test/buck_test/lib/wuerth/symbols/MagIC_Wurth_WPME-VDMM.kicad_sym")(options "")(descr ""))
   (lib (name "mosfet")(type "KiCad")(uri "${KIPRJMOD}/lib/mosfet.kicad_sym")(options "")(descr ""))
+  (lib (name "MagIC_Wurth_WPME-VDMM")(type "KiCad")(uri "${KIPRJMOD}/lib/wuerth/symbols/MagIC_Wurth_WPME-VDMM.kicad_sym")(options "")(descr ""))
 )

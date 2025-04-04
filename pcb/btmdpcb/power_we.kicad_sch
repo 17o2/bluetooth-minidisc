@@ -1137,7 +1137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06947d2c-946e-4fcb-9238-1330e4c1efea")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -1249,7 +1249,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1348,7 +1348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 160.9852 77.47 0)
 			(effects
 				(font
@@ -1400,7 +1400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50e5d494-fa7e-484e-96ba-70e092d7ab93")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 148.59 72.3899 0)
 			(effects
 				(font
@@ -1454,7 +1454,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1470,7 +1470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4bc118c-6f41-41a0-a427-e34e758b8374")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 148.59 88.8999 0)
 			(effects
 				(font
@@ -1524,7 +1524,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)

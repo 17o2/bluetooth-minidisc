@@ -1064,7 +1064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81390a9f-4ae9-4e6d-a4a2-9a90ffb38106")
-		(property "Reference" "R29"
+		(property "Reference" "R33"
 			(at 111.76 90.1699 0)
 			(effects
 				(font
@@ -1082,7 +1082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 112.522 91.44 90)
 			(effects
 				(font
@@ -1118,7 +1118,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
-					(reference "R29")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1220,7 +1220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e740929d-16bf-4416-939f-154a4b9fdc22")
-		(property "Reference" "R28"
+		(property "Reference" "R32"
 			(at 102.87 58.4199 0)
 			(effects
 				(font
@@ -1238,7 +1238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 103.632 59.69 90)
 			(effects
 				(font
@@ -1274,7 +1274,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
-					(reference "R28")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1291,7 +1291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcdb44e9-2a9c-4ee0-894a-26689fed841f")
-		(property "Reference" "R30"
+		(property "Reference" "R34"
 			(at 121.92 58.4199 0)
 			(effects
 				(font
@@ -1309,7 +1309,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 122.682 59.69 90)
 			(effects
 				(font
@@ -1345,7 +1345,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/187a6431-8efb-40fb-b2e6-980e8d4e9b0d"
-					(reference "R30")
+					(reference "R34")
 					(unit 1)
 				)
 			)
