@@ -2650,7 +2650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "217332be-2013-40db-9283-e981803a4c28")
-		(property "Reference" "Q6"
+		(property "Reference" "Q5"
 			(at 208.28 67.31 90)
 			(effects
 				(font
@@ -2708,7 +2708,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "Q6")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
