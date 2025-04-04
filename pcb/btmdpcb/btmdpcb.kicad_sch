@@ -1294,301 +1294,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:2N7000"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N7000"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N7000_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "2N7000_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_FET:BSD235C"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -2087,6 +1792,520 @@
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "GP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mosfet:BSD235N"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSD235N"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/BSD235N_Rev2%205.pdf?fileId=db3a30431add1d95011afc70075c04e0"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "+0.95A Id, +20V Vds, dual N-Channel MOSFET, SOT-363, Infineon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OptiMOS MOSFET complementary nmos pmos enhanced avalanche AEC Q101 super logic infineon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSD235N_1_1"
+				(polyline
+					(pts
+						(xy 0.254 -1.905) (xy 0.254 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.286) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 -0.381) (xy 2.032 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BSD235N_2_1"
+				(polyline
+					(pts
+						(xy 0.254 -1.905) (xy 0.254 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.286) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy 0.762 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.905) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 -0.381) (xy 2.032 0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3039,8 +3258,16 @@
 		(uuid "61b73d7e-1e48-4fc5-b905-95b1564f276d")
 	)
 	(no_connect
+		(at 254 267.97)
+		(uuid "636b8ca3-5ca7-410f-9ea4-a3c819c7a307")
+	)
+	(no_connect
 		(at 201.93 276.86)
 		(uuid "69101492-ba37-463a-94c5-18b9aefb41f3")
+	)
+	(no_connect
+		(at 261.62 262.89)
+		(uuid "83411f9f-bc88-4369-b139-20dd6b1bc704")
 	)
 	(no_connect
 		(at 186.69 274.32)
@@ -3049,6 +3276,10 @@
 	(no_connect
 		(at 182.88 133.35)
 		(uuid "b4bdcbc7-067b-44a7-8a69-f255659088c6")
+	)
+	(no_connect
+		(at 261.62 273.05)
+		(uuid "d396fd16-c316-4b96-a9cc-6d3fea9336e6")
 	)
 	(no_connect
 		(at 186.69 279.4)
@@ -5519,6 +5750,91 @@
 		)
 	)
 	(symbol
+		(lib_id "mosfet:BSD235N")
+		(at 142.24 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "179c2680-48a2-419c-a7eb-5439478b0f87")
+		(property "Reference" "Q3"
+			(at 148.59 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235N"
+			(at 148.59 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 147.32 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSD235N_Rev2%205.pdf?fileId=db3a30431add1d95011afc70075c04e0"
+			(at 147.32 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "+0.95A Id, +20V Vds, dual N-Channel MOSFET, SOT-363, Infineon"
+			(at 142.24 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "576047be-d323-4670-ae0c-fd86908b080c")
+		)
+		(pin "5"
+			(uuid "1924f6e4-b6ab-42e8-967b-8592c6e9a81c")
+		)
+		(pin "6"
+			(uuid "e814f980-8aea-4f02-9cd9-7e893167fccf")
+		)
+		(pin "4"
+			(uuid "3d512476-9b6f-4d0c-aa73-e0b5b9743df8")
+		)
+		(pin "3"
+			(uuid "bcae48f6-64b8-460b-ad91-d8641cc7f8dc")
+		)
+		(pin "2"
+			(uuid "4d3e7cfd-25a1-4876-b5d3-cad8d2e5a96a")
+		)
+		(instances
+			(project ""
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 274.32 148.59 90)
 		(unit 1)
@@ -6202,6 +6518,91 @@
 		)
 	)
 	(symbol
+		(lib_id "mosfet:BSD235N")
+		(at 259.08 267.97 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fe355e4-1fb0-4553-8be0-1e2c1bef6aad")
+		(property "Reference" "Q3"
+			(at 265.43 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235N"
+			(at 265.43 269.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 264.16 269.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSD235N_Rev2%205.pdf?fileId=db3a30431add1d95011afc70075c04e0"
+			(at 264.16 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "+0.95A Id, +20V Vds, dual N-Channel MOSFET, SOT-363, Infineon"
+			(at 259.08 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "576047be-d323-4670-ae0c-fd86908b080c")
+		)
+		(pin "5"
+			(uuid "1924f6e4-b6ab-42e8-967b-8592c6e9a81c")
+		)
+		(pin "6"
+			(uuid "e814f980-8aea-4f02-9cd9-7e893167fccf")
+		)
+		(pin "4"
+			(uuid "3d512476-9b6f-4d0c-aa73-e0b5b9743df8")
+		)
+		(pin "3"
+			(uuid "bcae48f6-64b8-460b-ad91-d8641cc7f8dc")
+		)
+		(pin "2"
+			(uuid "4d3e7cfd-25a1-4876-b5d3-cad8d2e5a96a")
+		)
+		(instances
+			(project ""
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b"
+					(reference "Q3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 369.57 157.48 0)
 		(unit 1)
@@ -6265,6 +6666,90 @@
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mosfet:BSD235N")
+		(at 323.85 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "475013d2-884e-4c5a-9d85-9381f0277302")
+		(property "Reference" "Q2"
+			(at 330.2 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235N"
+			(at 330.2 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 328.93 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSD235N_Rev2%205.pdf?fileId=db3a30431add1d95011afc70075c04e0"
+			(at 328.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "+0.95A Id, +20V Vds, dual N-Channel MOSFET, SOT-363, Infineon"
+			(at 323.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "311d5a89-e66c-43ef-8d73-64b32e7e1aa7")
+		)
+		(pin "4"
+			(uuid "2b454719-88fa-43c4-ba40-5b3f7ea8562a")
+		)
+		(pin "5"
+			(uuid "6c45ea39-0c25-4f4b-a891-cb78003dd25c")
+		)
+		(pin "6"
+			(uuid "6b60d695-618b-4cc1-89c4-5864341750d9")
+		)
+		(pin "2"
+			(uuid "3ed65918-be2e-414c-ae8b-5c50fd110907")
+		)
+		(pin "1"
+			(uuid "f0ee2da3-7e3e-4380-a079-f8a3de6893ca")
+		)
+		(instances
+			(project ""
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7068,97 +7553,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 323.85 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b206680-0eeb-420c-8ae4-5fcdd6abd31a")
-		(property "Reference" "Q2"
-			(at 330.2 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 330.2 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 328.93 60.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 328.93 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 323.85 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NOtes" "Replace with dual N channel BSD235N"
-			(at 318.77 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "KICKSTART"
-			(at 334.01 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4c9780ca-3de0-4871-9d17-9d9f88eee1f9")
-		)
-		(pin "2"
-			(uuid "dff2e9a0-3529-4710-ad1e-dad65a7164d0")
-		)
-		(pin "1"
-			(uuid "4a3ec9c2-dba6-420b-aecc-86c1b080ebb7")
-		)
-		(instances
-			(project "btmdpcb"
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 115.57 243.84 0)
 		(unit 1)
@@ -7441,89 +7835,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 142.24 248.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78fff482-747a-4a5e-8788-937272fbce71")
-		(property "Reference" "Q7"
-			(at 148.59 247.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 148.59 250.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 147.32 250.825 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 147.32 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 142.24 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "Discharge RC cap on powerup"
-			(at 142.24 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c78d1186-59c8-44bb-b23e-97348ffef15e")
-		)
-		(pin "2"
-			(uuid "44d246f5-9f03-45c9-b413-1d5a1f4e7d53")
-		)
-		(pin "3"
-			(uuid "cb8b0f7d-6585-404d-9cd7-4b8ffdf22a02")
-		)
-		(instances
-			(project ""
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 313.69 62.23 0)
 		(unit 1)
@@ -7648,10 +7959,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ddb7c436-9424-4c70-b090-b963f21d862b")
+			(uuid "ddb7c436-9424-4c70-b090-b963f21d862c")
 		)
 		(pin "2"
-			(uuid "8b318081-dff8-49e0-b684-4addd104c13a")
+			(uuid "8b318081-dff8-49e0-b684-4addd104c13b")
 		)
 		(instances
 			(project ""
@@ -8411,97 +8722,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 323.85 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b16ed6ab-d971-4682-bbc6-78bcbbbf82b3")
-		(property "Reference" "Q3"
-			(at 330.2 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 330.2 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 328.93 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 328.93 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
-			(at 323.85 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NOtes" "Replace with dual N channel BSD235N"
-			(at 327.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Function" "KEEPALIVE"
-			(at 334.01 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "17aed7fb-5050-4ef8-9ce1-dd84190e7896")
-		)
-		(pin "2"
-			(uuid "3994f6fa-44d0-49f4-9b70-b9c0e2a0d491")
-		)
-		(pin "1"
-			(uuid "4724d9d4-30e6-4eff-93cb-5ce55c36d33e")
-		)
-		(instances
-			(project "btmdpcb"
-				(path "/6e43e92f-e106-411c-86ee-217d084aee5b"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 104.14 0)
 		(unit 1)
@@ -8764,6 +8984,91 @@
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b"
 					(reference "#PWR014")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mosfet:BSD235N")
+		(at 323.85 95.25 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdcc86d4-23dc-452d-86a4-29c97e07db2d")
+		(property "Reference" "Q2"
+			(at 330.2 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSD235N"
+			(at 330.2 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 328.93 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/BSD235N_Rev2%205.pdf?fileId=db3a30431add1d95011afc70075c04e0"
+			(at 328.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "+0.95A Id, +20V Vds, dual N-Channel MOSFET, SOT-363, Infineon"
+			(at 323.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "311d5a89-e66c-43ef-8d73-64b32e7e1aa7")
+		)
+		(pin "4"
+			(uuid "2b454719-88fa-43c4-ba40-5b3f7ea8562a")
+		)
+		(pin "5"
+			(uuid "6c45ea39-0c25-4f4b-a891-cb78003dd25c")
+		)
+		(pin "6"
+			(uuid "6b60d695-618b-4cc1-89c4-5864341750d9")
+		)
+		(pin "2"
+			(uuid "3ed65918-be2e-414c-ae8b-5c50fd110907")
+		)
+		(pin "1"
+			(uuid "f0ee2da3-7e3e-4380-a079-f8a3de6893ca")
+		)
+		(instances
+			(project ""
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b"
+					(reference "Q2")
+					(unit 2)
 				)
 			)
 		)
@@ -9223,28 +9528,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "03e15a98-18b5-49eb-b401-9dfea228a5f3")
+			(uuid "03e15a98-18b5-49eb-b401-9dfea228a5f4")
 		)
 		(pin "1"
-			(uuid "6b4c0302-af15-4f10-a3c7-55363f6983f4")
+			(uuid "6b4c0302-af15-4f10-a3c7-55363f6983f5")
 		)
 		(pin "6"
-			(uuid "132d399d-a1eb-4871-bcf2-c16cfc3589a8")
+			(uuid "132d399d-a1eb-4871-bcf2-c16cfc3589a9")
 		)
 		(pin "4"
-			(uuid "76d36c76-7269-4bb1-a655-76983013fb58")
+			(uuid "76d36c76-7269-4bb1-a655-76983013fb59")
 		)
 		(pin "8"
-			(uuid "d4e6e810-5af8-4c5e-b558-d02a87087ad3")
+			(uuid "d4e6e810-5af8-4c5e-b558-d02a87087ad4")
 		)
 		(pin "5"
-			(uuid "90579309-1904-4abf-ab97-3325cbef81e7")
+			(uuid "90579309-1904-4abf-ab97-3325cbef81e8")
 		)
 		(pin "2"
-			(uuid "b5e71ea1-ab1d-4870-bd17-7eef41098426")
+			(uuid "b5e71ea1-ab1d-4870-bd17-7eef41098427")
 		)
 		(pin "3"
-			(uuid "a68034e9-5ff2-4c7b-b5f0-bfa67063df3f")
+			(uuid "a68034e9-5ff2-4c7b-b5f0-bfa67063df40")
 		)
 		(instances
 			(project ""
@@ -9451,10 +9756,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ddb7c436-9424-4c70-b090-b963f21d862b")
+			(uuid "ddb7c436-9424-4c70-b090-b963f21d862d")
 		)
 		(pin "2"
-			(uuid "8b318081-dff8-49e0-b684-4addd104c13a")
+			(uuid "8b318081-dff8-49e0-b684-4addd104c13c")
 		)
 		(instances
 			(project ""
@@ -9717,28 +10022,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "03e15a98-18b5-49eb-b401-9dfea228a5f3")
+			(uuid "03e15a98-18b5-49eb-b401-9dfea228a5f5")
 		)
 		(pin "1"
-			(uuid "6b4c0302-af15-4f10-a3c7-55363f6983f4")
+			(uuid "6b4c0302-af15-4f10-a3c7-55363f6983f6")
 		)
 		(pin "6"
-			(uuid "132d399d-a1eb-4871-bcf2-c16cfc3589a8")
+			(uuid "132d399d-a1eb-4871-bcf2-c16cfc3589aa")
 		)
 		(pin "4"
-			(uuid "76d36c76-7269-4bb1-a655-76983013fb58")
+			(uuid "76d36c76-7269-4bb1-a655-76983013fb5a")
 		)
 		(pin "8"
-			(uuid "d4e6e810-5af8-4c5e-b558-d02a87087ad3")
+			(uuid "d4e6e810-5af8-4c5e-b558-d02a87087ad5")
 		)
 		(pin "5"
-			(uuid "90579309-1904-4abf-ab97-3325cbef81e7")
+			(uuid "90579309-1904-4abf-ab97-3325cbef81e9")
 		)
 		(pin "2"
-			(uuid "b5e71ea1-ab1d-4870-bd17-7eef41098426")
+			(uuid "b5e71ea1-ab1d-4870-bd17-7eef41098428")
 		)
 		(pin "3"
-			(uuid "a68034e9-5ff2-4c7b-b5f0-bfa67063df3f")
+			(uuid "a68034e9-5ff2-4c7b-b5f0-bfa67063df41")
 		)
 		(instances
 			(project ""
