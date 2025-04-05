@@ -5,6 +5,108 @@
 	(uuid "3909ba84-32ee-4e8f-afed-a95dcf2c5933")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -642,6 +744,12 @@
 		(uuid "390eee4e-01d3-4806-bf9c-7f0f6076757a")
 	)
 	(junction
+		(at 101.6 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48ee2446-e2eb-4dd7-bd3a-150432c2a056")
+	)
+	(junction
 		(at 146.05 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -652,6 +760,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5db240fc-fc70-46ad-b204-33a139f49c82")
+	)
+	(junction
+		(at 101.6 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "772d5a93-b636-4ec4-9b8c-e7654ca2d2a1")
+	)
+	(junction
+		(at 105.41 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cb9e5af-172f-4f72-9471-21960488d2c8")
+	)
+	(junction
+		(at 151.13 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e860b51-94c6-45bf-9bfc-e2bab92d3e2e")
 	)
 	(junction
 		(at 146.05 83.82)
@@ -709,13 +835,33 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 67.31) (xy 118.11 67.31)
+			(xy 96.52 67.31) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "257d55d2-b42d-4252-bd0e-62e9588421d7")
+	)
+	(wire
+		(pts
+			(xy 151.13 64.77) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bfc029e-c043-41c7-a173-dd82f3c658de")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e55d09-d202-494e-a782-7760ac288531")
 	)
 	(wire
 		(pts
@@ -746,6 +892,26 @@
 			(type default)
 		)
 		(uuid "47068747-99a0-4593-b4e4-2e87a224f94f")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 160.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48174d02-b0a1-42c1-8cc9-201f744d5cf4")
+	)
+	(wire
+		(pts
+			(xy 101.6 83.82) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae7f6cd-a32e-4b96-88f9-1ac0730a0b7b")
 	)
 	(wire
 		(pts
@@ -809,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 67.31) (xy 160.02 67.31)
+			(xy 146.05 67.31) (xy 151.13 67.31)
 		)
 		(stroke
 			(width 0)
@@ -846,6 +1012,26 @@
 			(type default)
 		)
 		(uuid "89e866dc-542b-4dbc-a73e-7c776572541d")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5f35a4-519c-4079-a6ea-4e77e7caad7a")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d092ced-ae2d-4f8d-898a-71fa45c08792")
 	)
 	(wire
 		(pts
@@ -889,13 +1075,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 99.06) (xy 127 99.06)
+			(xy 83.82 99.06) (xy 101.6 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5b8b2c7-480d-4384-9117-265c5ba6d4f5")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b991696e-4d88-4616-8be0-949a158703c4")
 	)
 	(wire
 		(pts
@@ -939,7 +1135,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 69.85) (xy 118.11 69.85)
+			(xy 93.98 69.85) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
@@ -976,6 +1172,16 @@
 			(type default)
 		)
 		(uuid "e5754cea-e5ec-4e1f-9ec3-daee78dacb1b")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ae5fd3-237b-4c73-b13c-06ea9059187d")
 	)
 	(wire
 		(pts
@@ -1023,7 +1229,7 @@
 	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 114.3 69.85 180)
+		(at 93.98 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1067,7 +1273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03858814-7824-47b6-a495-b1c7d3c49b73")
-		(property "Reference" "C3in1"
+		(property "Reference" "C5"
 			(at 80.01 78.7399 0)
 			(effects
 				(font
@@ -1121,7 +1327,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "C3in1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -1137,7 +1343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06947d2c-946e-4fcb-9238-1330e4c1efea")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 128.27 58.42 0)
 			(effects
 				(font
@@ -1249,7 +1455,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1265,7 +1471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "370950a4-b62c-4c15-90aa-c42431fc0af7")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG04"
 			(at 96.52 65.405 0)
 			(effects
 				(font
@@ -1315,7 +1521,7 @@
 		(instances
 			(project ""
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "#FLG01")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -1330,7 +1536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37582b11-e353-4be0-b898-bb4a31e52ca8")
-		(property "Reference" "C3ff1"
+		(property "Reference" "C7"
 			(at 163.83 72.3899 0)
 			(effects
 				(font
@@ -1384,7 +1590,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "C3ff1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1400,7 +1606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50e5d494-fa7e-484e-96ba-70e092d7ab93")
-		(property "Reference" "R15"
+		(property "Reference" "R21"
 			(at 148.59 72.3899 0)
 			(effects
 				(font
@@ -1454,7 +1660,144 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "R15")
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55cd90cb-58f3-4c8d-8fcc-6d8a5de62220")
+		(property "Reference" "TP9"
+			(at 153.67 60.1979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1V5_OUT"
+			(at 153.67 62.7379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a82d1c1c-f655-4aae-aafb-5cc1b6e9e82b")
+		)
+		(instances
+			(project "btmdpcb"
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e1fe2d0-49bf-4e02-b349-b67c2689b755")
+		(property "Reference" "C6"
+			(at 105.41 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 105.41 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 102.5652 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f6e27f0-be1e-4efd-996c-fcf623d2fdfc")
+		)
+		(pin "2"
+			(uuid "3ed24d0d-e02d-42dd-9006-4818487e8d18")
+		)
+		(instances
+			(project "btmdpcb"
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1470,7 +1813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4bc118c-6f41-41a0-a427-e34e758b8374")
-		(property "Reference" "R16"
+		(property "Reference" "R22"
 			(at 148.59 88.8999 0)
 			(effects
 				(font
@@ -1524,7 +1867,74 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "R16")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ae1802-3b99-4e86-86a8-a01f517665da")
+		(property "Reference" "TP8"
+			(at 107.95 61.4679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1V5_IN"
+			(at 107.95 64.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6579a842-9f75-41da-8497-7f032d808f1e")
+		)
+		(instances
+			(project "btmdpcb"
+				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -1539,7 +1949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7cd2959-3d67-47ac-a28d-2ddd0eb9324f")
-		(property "Reference" "C3out1"
+		(property "Reference" "C8"
 			(at 201.93 78.7399 0)
 			(effects
 				(font
@@ -1593,7 +2003,7 @@
 		(instances
 			(project "btmdpcb"
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/f98f56bc-3a06-4980-9f89-01c85da426aa"
-					(reference "C3out1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
