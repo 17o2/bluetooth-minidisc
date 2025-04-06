@@ -4,4 +4,5 @@
   (lib (name "pololu")(type "KiCad")(uri "${KIPRJMOD}/lib/pololu.pretty")(options "")(descr ""))
   (lib (name "MagIC_SMD_Wurth")(type "KiCad")(uri "${KIPRJMOD}/lib/wuerth/footprints/MagIC_SMD_Wurth.pretty")(options "")(descr ""))
   (lib (name "usb")(type "KiCad")(uri "${KIPRJMOD}/lib/usb")(options "")(descr ""))
+  (lib (name "uFL")(type "KiCad")(uri "${KIPRJMOD}/lib/uFL")(options "")(descr ""))
 )

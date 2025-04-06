@@ -304,8 +304,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J2"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -313,14 +313,14 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_16P"
-				(at 0 19.685 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "usb:USB-C-SMD_12P-P0.50-H-F_TYPE-C-31-M-14"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -680,8 +680,8 @@
 			)
 			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
+					(at 0 -25.4 90)
+					(length 7.62)
 					(name "GND"
 						(effects
 							(font
@@ -689,25 +689,7 @@
 							)
 						)
 					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
+					(number "A1B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -725,7 +707,7 @@
 							)
 						)
 					)
-					(number "A4"
+					(number "A4B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -806,26 +788,8 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08) hide
+					(at 0 -25.4 90)
+					(length 7.62) hide
 					(name "GND"
 						(effects
 							(font
@@ -833,25 +797,7 @@
 							)
 						)
 					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
+					(number "B1A12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -869,7 +815,7 @@
 							)
 						)
 					)
-					(number "B4"
+					(number "B4A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -950,24 +896,6 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
 					(name "SHIELD"
@@ -977,7 +905,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2832,6 +2760,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 104.14) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7364af8c-ce0a-4ee9-a935-04a7b8e22f42")
+	)
+	(wire
+		(pts
 			(xy 144.78 50.8) (xy 177.8 50.8)
 		)
 		(stroke
@@ -3039,16 +2977,6 @@
 			(type default)
 		)
 		(uuid "be070238-d4c8-42e6-b748-f40b27d44915")
-	)
-	(wire
-		(pts
-			(xy 72.39 104.14) (xy 72.39 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1bb8d2e-b971-499b-956b-39d5b013540b")
 	)
 	(wire
 		(pts
@@ -4923,7 +4851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de7b1d23-d527-43ac-88e1-2ca17ff7706b")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 72.39 43.18 0)
 			(effects
 				(font
@@ -4939,7 +4867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "usb:TYPE-C-31-M-14"
+		(property "Footprint" "usb:USB-C-SMD_12P-P0.50-H-F_TYPE-C-31-M-14"
 			(at 76.2 66.04 0)
 			(effects
 				(font
@@ -4969,7 +4897,7 @@
 		(pin "B5"
 			(uuid "e50fc74d-fabf-43e8-be51-e3b8fcdba039")
 		)
-		(pin "B12"
+		(pin "A4B9"
 			(uuid "3a809c4c-be0d-4498-9551-a3c755b568fb")
 		)
 		(pin "B7"
@@ -4984,23 +4912,17 @@
 		(pin "A5"
 			(uuid "31d8d0ad-4687-455a-b9ae-831c883cd761")
 		)
-		(pin "B4"
+		(pin "A1B12"
 			(uuid "d43cffcd-ff80-41cb-acfc-4aab1aaca9a3")
 		)
-		(pin "S1"
+		(pin "S"
 			(uuid "46664e4f-1c9c-4adb-8a9c-5d01c1f2716d")
 		)
-		(pin "B1"
+		(pin "B1A12"
 			(uuid "d8e12317-21bd-4a2e-9303-43946c1ea698")
 		)
-		(pin "B9"
+		(pin "B4A9"
 			(uuid "94316c9e-5baf-4040-bef8-30538f40272d")
-		)
-		(pin "A4"
-			(uuid "1ffdf8e4-0734-4f40-8577-0e5adea613e5")
-		)
-		(pin "A9"
-			(uuid "54c6e765-e24a-42ec-ac1d-fc85fabaf97d")
 		)
 		(pin "A8"
 			(uuid "b397c684-0e06-4685-86ca-6a53b795b91f")
@@ -5008,19 +4930,13 @@
 		(pin "B8"
 			(uuid "c50386e2-8cc2-40ed-adf2-755cad22e42b")
 		)
-		(pin "A1"
-			(uuid "a1cfaa56-b0b4-46c8-87e0-41defb6071ff")
-		)
 		(pin "A6"
 			(uuid "da3385f8-0706-4536-8fa2-61206ebaa800")
-		)
-		(pin "A12"
-			(uuid "3b8782e2-60d5-4ae6-b5e1-1f6066b1c186")
 		)
 		(instances
 			(project ""
 				(path "/6e43e92f-e106-411c-86ee-217d084aee5b/30ff757b-83ca-4184-84db-39f939669bab"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
