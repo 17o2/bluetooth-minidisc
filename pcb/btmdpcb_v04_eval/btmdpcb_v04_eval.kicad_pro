@@ -58,7 +58,19 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|102225147|45224943|d0c98452-f513-4bc0-b456-67f1d2cec841|b366d720-4862-4cf3-90bb-f7a16d6c3622",
+        "copper_edge_clearance|102225147|56375057|13106527-d034-4ef9-a478-586cbe367254|1ab6971a-87cb-4534-9c85-004f2b61ffa4",
+        "copper_edge_clearance|98424944|45224943|d0c98452-f513-4bc0-b456-67f1d2cec841|17937b50-96d5-4a39-ab77-52c600b2b1eb",
+        "copper_edge_clearance|98424944|56375057|df8b7267-505f-4fe6-8fad-d91c9fe5d83e|8782894a-6830-480c-8528-ec84756d7847",
+        "courtyards_overlap|128525001|67330001|501255d9-60f9-4168-a799-69f66ec4e2e5|97b37df0-7acd-4351-91e1-6bbd80e1914c",
+        "courtyards_overlap|131424999|74239158|02ab145f-d5bb-4aea-ac68-1581827fb639|97b37df0-7acd-4351-91e1-6bbd80e1914c",
+        "courtyards_overlap|131424999|75165001|02ab145f-d5bb-4aea-ac68-1581827fb639|067d98b6-e8f0-4e2d-835a-6fc16c8662cc",
+        "courtyards_overlap|131809999|81649400|067d98b6-e8f0-4e2d-835a-6fc16c8662cc|e59fe693-e2bb-4086-ae54-93642f014e05",
+        "lib_footprint_mismatch|100319991|50800000|e12b5ec5-c2ab-410b-a6c1-d91e8b83eade|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|106740000|74945000|190c371b-13b9-4ef3-87e0-f31ccc39f5de|4e458cb7-9477-4408-8a43-382360736214|F.Cu",
+        "unconnected_items|102625147|56375057|1ab6971a-87cb-4534-9c85-004f2b61ffa4|7131ade4-4a55-437b-bba3-acace6d4e36c"
+      ],
       "meta": {
         "version": 2
       },
@@ -449,7 +461,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "btmdpcb.kicad_pro",
+    "filename": "btmdpcb_v04_eval.kicad_pro",
     "version": 1
   },
   "net_settings": {
