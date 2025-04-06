@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "MagIC_Wurth_WPME-VDMM")(type "KiCad")(uri "${KIPRJMOD}/lib/wuerth/symbols/MagIC_Wurth_WPME-VDMM.kicad_sym")(options "")(descr ""))
-)
